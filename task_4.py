@@ -4,9 +4,9 @@ months = 10  # количество месяцев
 increase = 0.03  # рост цен
 
 need_money = 0  # количество денег, чтобы прожить 10 месяцев
-list_spend =[ ]
+list_spend = [ ]
 
-num_months =list(range(months))
+num_months = list(range(months))
 for m in num_months:
     if m == 0:
         list_spend.append(spend)
